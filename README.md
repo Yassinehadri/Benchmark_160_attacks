@@ -5,7 +5,7 @@
 ![Task](https://img.shields.io/badge/Task-Root_Cause_Analysis_(RCA)-success.svg)
 ![Format](https://img.shields.io/badge/Format-JSON--ChatML-yellow.svg)
 
-# 🛡️ Benchmark 160 Attacks : Cyber Threat Evaluation for Microservices
+#  Benchmark 160 Attacks : Cyber Threat Evaluation for Microservices
 
 Bienvenue dans le dépôt du projet **benchmark_160_attaks** (issu du projet global *Synth-OB-Cyber*). 
 
@@ -13,7 +13,7 @@ Ce jeu de données (Benchmark) a été spécifiquement conçu pour évaluer la c
 
 ---
 
-## 🔬 1. Légitimité et Fondations Scientifiques
+##  1. Légitimité et Fondations Scientifiques
 
 L'évaluation de l'IA en cybersécurité fait face à une limite majeure dans l'état de l'art actuel : la fragmentation des données.
 - Les benchmarks AIOps récents (comme **RCAEval**) se limitent aux pannes opérationnelles (fuite mémoire, saturation CPU) et excluent les comportements adversariaux.
@@ -27,7 +27,7 @@ Ce benchmark surmonte ces limitations en projetant les signatures d'attaques rec
 
 ---
 
-## 📊 2. Taxonomie des Scénarios (Les 8 Vecteurs)
+##  2. Taxonomie des Scénarios (Les 8 Vecteurs)
 
 Le jeu de test est constitué de **160 scénarios d'attaques** répartis de manière parfaitement équilibrée (20 cas par classe) pour éviter tout biais statistique lors du calcul du F1-Score.
 
@@ -44,7 +44,7 @@ Le jeu de test est constitué de **160 scénarios d'attaques** répartis de mani
 
 ---
 
-## 🧬 3. Structure du Benchmark (JSON Strict)
+##  3. Structure du Benchmark (JSON Strict)
 
 Pour garantir une lisibilité optimale par les chercheurs (humains) et une intégration facile dans les pipelines d'évaluation (machines), le fichier `benchmark_attack_eval.json` est un tableau d'objets JSON structuré ainsi :
 
