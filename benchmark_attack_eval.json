@@ -1,0 +1,1442 @@
+[
+    {
+        "nom_cas": "Cas 1 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 99.6% | network_receive_packets: 2950044 | timestamp: 1782901126.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 55.43.1.85 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_8393abc | Durée totale: 14981ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 2 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 99.5% | network_receive_packets: 3279871 | timestamp: 1782943012.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 103.149.1.208 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_2254abc | Durée totale: 12511ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 3 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 98.8% | network_receive_packets: 3961869 | timestamp: 1782876107.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 154.12.1.136 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_1434abc | Durée totale: 10117ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 4 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 99.8% | network_receive_packets: 3859258 | timestamp: 1782880958.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 188.2.1.194 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_7049abc | Durée totale: 14155ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 5 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 98.7% | network_receive_packets: 2873663 | timestamp: 1782649593.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 110.165.1.172 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_1417abc | Durée totale: 14249ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 6 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 99.6% | network_receive_packets: 3365418 | timestamp: 1782660482.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 120.232.1.190 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_8321abc | Durée totale: 14056ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 7 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 98.8% | network_receive_packets: 2618686 | timestamp: 1782889220.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 21.223.1.244 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_9198abc | Durée totale: 12319ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 8 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 98.7% | network_receive_packets: 2935162 | timestamp: 1782558900.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 155.207.1.30 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_7443abc | Durée totale: 10132ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 9 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 99.0% | network_receive_packets: 3541741 | timestamp: 1782836215.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 126.186.1.172 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_3046abc | Durée totale: 14489ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 10 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 98.9% | network_receive_packets: 2876136 | timestamp: 1782570964.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 36.39.1.72 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_9173abc | Durée totale: 14527ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 11 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 99.7% | network_receive_packets: 3462832 | timestamp: 1782809270.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 107.143.1.176 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_8462abc | Durée totale: 11847ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 12 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 99.8% | network_receive_packets: 2856936 | timestamp: 1782524008.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 173.193.1.98 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_1704abc | Durée totale: 10792ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 13 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 99.7% | network_receive_packets: 2672688 | timestamp: 1782809947.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 48.221.1.211 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_2116abc | Durée totale: 14396ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 14 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 99.4% | network_receive_packets: 2574818 | timestamp: 1782838026.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 117.33.1.179 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_1788abc | Durée totale: 14018ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 15 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 99.7% | network_receive_packets: 2736094 | timestamp: 1782668904.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 137.65.1.116 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_6590abc | Durée totale: 13400ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 16 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 99.3% | network_receive_packets: 3734901 | timestamp: 1782582237.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 13.186.1.134 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_2056abc | Durée totale: 11088ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 17 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 98.6% | network_receive_packets: 3704204 | timestamp: 1782739807.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 87.172.1.26 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_9329abc | Durée totale: 10615ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 18 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 99.0% | network_receive_packets: 2882729 | timestamp: 1782832238.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 45.31.1.228 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_4355abc | Durée totale: 10325ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 19 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 99.1% | network_receive_packets: 3268865 | timestamp: 1782731193.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 156.153.1.208 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_6106abc | Durée totale: 14823ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 20 - frontend (Attaque (DDoS Volumétrique))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 99.2% | network_receive_packets: 2800039 | timestamp: 1782573648.4\n=== LOGS ===\n[CRITICAL] frontend: Connection pool exhausted from IP 110.197.1.163 [WARN] frontend: Rate limit exceeded\n=== TRACES ===\nTraceID: test_ddos_4158abc | Durée totale: 12591ms api-gateway → frontend (ERROR:503)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (DDoS Volumétrique)",
+            "raison": "Une inondation anormale de requêtes réseau a saturé le CPU et épuisé les sockets de connexion, provoquant une erreur 503."
+        }
+    },
+    {
+        "nom_cas": "Cas 21 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782490685.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 69.192.1.154\n=== TRACES ===\nTraceID: test_brute_force_6629abc | Durée totale: 84ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 22 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782893807.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 192.247.1.71\n=== TRACES ===\nTraceID: test_brute_force_4889abc | Durée totale: 137ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 23 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782726253.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 100.181.1.224\n=== TRACES ===\nTraceID: test_brute_force_2563abc | Durée totale: 82ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 24 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782646212.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 104.207.1.38\n=== TRACES ===\nTraceID: test_brute_force_6173abc | Durée totale: 103ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 25 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782927633.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 20.149.1.45\n=== TRACES ===\nTraceID: test_brute_force_7068abc | Durée totale: 133ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 26 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782664207.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 166.55.1.198\n=== TRACES ===\nTraceID: test_brute_force_5565abc | Durée totale: 81ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 27 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782940286.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 181.128.1.17\n=== TRACES ===\nTraceID: test_brute_force_9746abc | Durée totale: 90ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 28 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782703609.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 19.58.1.164\n=== TRACES ===\nTraceID: test_brute_force_7269abc | Durée totale: 61ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 29 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782710433.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 19.195.1.233\n=== TRACES ===\nTraceID: test_brute_force_4047abc | Durée totale: 117ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 30 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782544487.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 154.115.1.127\n=== TRACES ===\nTraceID: test_brute_force_9429abc | Durée totale: 95ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 31 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782848342.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 63.90.1.133\n=== TRACES ===\nTraceID: test_brute_force_6614abc | Durée totale: 87ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 32 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782826522.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 12.108.1.138\n=== TRACES ===\nTraceID: test_brute_force_6852abc | Durée totale: 80ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 33 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782798563.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 86.124.1.135\n=== TRACES ===\nTraceID: test_brute_force_2430abc | Durée totale: 59ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 34 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782601082.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 26.84.1.135\n=== TRACES ===\nTraceID: test_brute_force_1048abc | Durée totale: 79ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 35 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782808879.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 80.53.1.195\n=== TRACES ===\nTraceID: test_brute_force_8958abc | Durée totale: 101ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 36 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782504195.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 35.210.1.55\n=== TRACES ===\nTraceID: test_brute_force_1270abc | Durée totale: 42ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 37 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782531684.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 172.126.1.211\n=== TRACES ===\nTraceID: test_brute_force_8622abc | Durée totale: 111ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 38 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782759334.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 69.0.1.113\n=== TRACES ===\nTraceID: test_brute_force_8119abc | Durée totale: 140ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 39 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782653604.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 138.81.1.47\n=== TRACES ===\nTraceID: test_brute_force_7282abc | Durée totale: 117ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 40 - checkoutservice (Attaque (Brute Force))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 15.0% | network_receive_packets: 15000 | timestamp: 1782536201.4\n=== LOGS ===\n[WARN] checkoutservice: Invalid credentials provided for admin [ERROR] checkoutservice: 50 consecutive failed logins from 137.66.1.25\n=== TRACES ===\nTraceID: test_brute_force_2855abc | Durée totale: 112ms api-gateway → checkoutservice (ERROR:401)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Brute Force)",
+            "raison": "De multiples échecs d'authentification successifs ont été détectés, indiquant une tentative de forçage d'accès (Credential Stuffing)."
+        }
+    },
+    {
+        "nom_cas": "Cas 41 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782551042.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_6438abc | Durée totale: 3076ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 42 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782484600.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_7471abc | Durée totale: 3191ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 43 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782716635.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_3913abc | Durée totale: 2030ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 44 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782935912.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_6601abc | Durée totale: 3878ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 45 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782767161.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_8559abc | Durée totale: 3732ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 46 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782836670.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_4671abc | Durée totale: 4051ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 47 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782580620.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_6752abc | Durée totale: 2205ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 48 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782964026.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_3041abc | Durée totale: 4088ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 49 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782599064.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_5359abc | Durée totale: 4036ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 50 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782880292.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_4915abc | Durée totale: 4031ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 51 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782657404.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_4925abc | Durée totale: 3402ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 52 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782573934.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_3268abc | Durée totale: 2109ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 53 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782573214.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_2051abc | Durée totale: 3937ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 54 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782858370.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_5163abc | Durée totale: 4479ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 55 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782872608.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_9199abc | Durée totale: 2156ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 56 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782614733.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_1152abc | Durée totale: 3036ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 57 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782506385.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_2386abc | Durée totale: 2582ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 58 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782574595.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_9643abc | Durée totale: 2857ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 59 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782643703.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_1848abc | Durée totale: 4437ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 60 - cartservice (Attaque (SQL Injection))",
+        "input": "=== MÉTRIQUES ===\nservice: cartservice | cpu_usage: 65.0% | network_transmit_bytes: 4500000 | timestamp: 1782678455.4\n=== LOGS ===\n[WARN] cartservice: Malformed SQL syntax detected in input: ' UNION SELECT NULL, version()--\n=== TRACES ===\nTraceID: test_sql_injection_4515abc | Durée totale: 2030ms api-gateway → cartservice (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "cartservice",
+            "type_panne": "Attaque (SQL Injection)",
+            "raison": "Une requête SQL malformée ou dangereuse a été envoyée au service, allongeant le temps de traitement de la base de données."
+        }
+    },
+    {
+        "nom_cas": "Cas 61 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782503897.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_9587abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 62 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782904017.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_4783abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 63 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782590839.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_8647abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 64 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782528086.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_5881abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 65 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782652377.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_8504abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 66 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782499490.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_2459abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 67 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782691693.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_7931abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 68 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782823336.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_4772abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 69 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782640635.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_5277abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 70 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782741525.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_6788abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 71 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782699737.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_1839abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 72 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782603569.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_7867abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 73 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782574853.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_8468abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 74 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782832471.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_4750abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 75 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782976070.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_2001abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 76 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782544966.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_1180abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 77 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782671131.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_2954abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 78 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782758565.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_1224abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 79 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782763927.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_5576abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 80 - adservice (Attaque (Cryptojacking))",
+        "input": "=== MÉTRIQUES ===\nservice: adservice | cpu_usage: 99.9% | network_transmit_packets: 150 | timestamp: 1782736348.4\n=== LOGS ===\n[WARN] adservice: CPU threshold exceeded for 45 consecutive minutes [ERROR] adservice: Unknown background process 'xmrig' detected\n=== TRACES ===\nTraceID: test_cryptojacking_8530abc | Durée totale: 45ms api-gateway → adservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "adservice",
+            "type_panne": "Attaque (Cryptojacking)",
+            "raison": "Un processus malveillant (miner xmrig) a pris le contrôle du conteneur, saturant le CPU à 99.9% de manière constante."
+        }
+    },
+    {
+        "nom_cas": "Cas 81 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782731505.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_8056abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 82 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782836283.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_1207abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 83 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782665825.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_3567abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 84 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782926547.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_1932abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 85 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782978002.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_3449abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 86 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782724014.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_5287abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 87 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782853701.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_2121abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 88 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782742069.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_4131abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 89 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782891228.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_4519abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 90 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782876063.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_9076abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 91 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782689821.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_2764abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 92 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782743061.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_2707abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 93 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782940390.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_2286abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 94 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782818712.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_4446abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 95 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782861449.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_1635abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 96 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782932852.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_8280abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 97 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782583050.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_4029abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 98 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782767131.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_7187abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 99 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782500938.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_9036abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 100 - productcatalogservice (Attaque (API Scanning / Reconnaissance))",
+        "input": "=== MÉTRIQUES ===\nservice: productcatalogservice | cpu_usage: 12.5% | network_receive_packets: 600 | timestamp: 1782655465.4\n=== LOGS ===\n[WARN] productcatalog: 404 Not Found for path /api/v1/hidden_admin [WARN] productcatalog: 404 Not Found for path /.env\n=== TRACES ===\nTraceID: test_api_scan_8005abc | Durée totale: 5ms api-gateway → productcatalogservice (ERROR:404)\n",
+        "reponse_attendue": {
+            "service_defaillant": "productcatalogservice",
+            "type_panne": "Attaque (API Scanning / Reconnaissance)",
+            "raison": "Un balayage systématique des points de terminaison (fuzzing de chemins) a généré de multiples erreurs HTTP 404."
+        }
+    },
+    {
+        "nom_cas": "Cas 101 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 977721165 | timestamp: 1782975375.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_7575abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 102 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 954043606 | timestamp: 1782696692.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_5228abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 103 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 857247406 | timestamp: 1782711126.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_4728abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 104 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 832505292 | timestamp: 1782655235.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_4579abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 105 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 946745894 | timestamp: 1782532888.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_8800abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 106 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 833138218 | timestamp: 1782551225.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_2641abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 107 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 897825484 | timestamp: 1782611327.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_9519abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 108 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 929638896 | timestamp: 1782638628.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_2973abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 109 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 816994483 | timestamp: 1782681101.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_3030abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 110 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 924065065 | timestamp: 1782795590.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_7826abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 111 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 834269787 | timestamp: 1782661560.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_1836abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 112 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 883211976 | timestamp: 1782968854.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_8185abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 113 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 837097007 | timestamp: 1782485014.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_2648abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 114 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 818634817 | timestamp: 1782778291.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_3587abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 115 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 942178879 | timestamp: 1782812741.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_6240abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 116 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 810622954 | timestamp: 1782531095.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_9677abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 117 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 871047474 | timestamp: 1782607321.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_7700abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 118 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 915743800 | timestamp: 1782764158.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_6932abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 119 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 882443710 | timestamp: 1782926035.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_3849abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 120 - redis-cart (Attaque (Ransomware / Chiffrement))",
+        "input": "=== MÉTRIQUES ===\nservice: redis-cart | cpu_usage: 95.0% | disk_write_bytes: 842041034 | timestamp: 1782627926.4\n=== LOGS ===\n[CRITICAL] redis: Rapid file modification detected [ERROR] redis: Failed to read cart data: corrupted or encrypted\n=== TRACES ===\nTraceID: test_ransomware_2553abc | Durée totale: 6000ms api-gateway → redis-cart (ERROR:500)\n",
+        "reponse_attendue": {
+            "service_defaillant": "redis-cart",
+            "type_panne": "Attaque (Ransomware / Chiffrement)",
+            "raison": "Une activité anormale d'E/S disque a été détectée, accompagnée d'erreurs de lecture des données suggérant une corruption ou un chiffrement."
+        }
+    },
+    {
+        "nom_cas": "Cas 121 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782845828.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_8798abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 122 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782538462.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_8505abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 123 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782712012.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_9532abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 124 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782909779.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_8640abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 125 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782515976.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_9881abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 126 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782721668.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_7162abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 127 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782682461.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_7401abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 128 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782525702.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_7684abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 129 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782856567.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_4545abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 130 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782958335.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_3523abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 131 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782872792.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_9741abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 132 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782868496.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_4413abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 133 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782804014.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_7811abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 134 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782730334.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_2385abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 135 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782851608.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_5808abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 136 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782926331.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_1307abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 137 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782630957.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_2845abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 138 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782730831.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_4968abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 139 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782933189.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_9005abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 140 - frontend (Attaque (SSRF - Server-Side Request Forgery))",
+        "input": "=== MÉTRIQUES ===\nservice: frontend | cpu_usage: 30.0% | network_transmit_packets: 800 | timestamp: 1782952451.4\n=== LOGS ===\n[WARN] frontend: Outbound request initiated to internal IP 169.254.169.254 [CRITICAL] frontend: Metadata credentials exposed in response\n=== TRACES ===\nTraceID: test_ssrf_3130abc | Durée totale: 120ms api-gateway → frontend (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "frontend",
+            "type_panne": "Attaque (SSRF - Server-Side Request Forgery)",
+            "raison": "Le service a été manipulé pour émettre une requête sortante non autorisée vers l'IP interne des métadonnées cloud."
+        }
+    },
+    {
+        "nom_cas": "Cas 141 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782954923.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_62 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_3415abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 142 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782855476.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_32 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_5031abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 143 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782693702.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_69 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_2628abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 144 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782933074.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_36 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_3871abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 145 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782903743.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_94 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_6223abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 146 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782646626.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_60 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_8813abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 147 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782910408.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_44 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_2408abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 148 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782913973.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_31 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_7268abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 149 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782587681.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_46 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_4382abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 150 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782955189.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_85 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_9225abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 151 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782519325.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_79 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_5313abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 152 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782969984.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_16 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_6553abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 153 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782832911.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_57 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_1823abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 154 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782626257.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_19 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_2125abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 155 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782908800.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_71 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_2867abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 156 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782600591.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_44 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_8447abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 157 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782941885.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_86 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_5989abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 158 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782827925.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_32 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_3730abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 159 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782796296.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_99 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_8756abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    },
+    {
+        "nom_cas": "Cas 160 - checkoutservice (Attaque (Privilege Escalation))",
+        "input": "=== MÉTRIQUES ===\nservice: checkoutservice | cpu_usage: 10.0% | network_receive_packets: 50 | timestamp: 1782850136.4\n=== LOGS ===\n[WARN] checkoutservice: Role modified to ADMIN for user_id: anonymous_75 [CRITICAL] checkoutservice: Security constraints bypassed\n=== TRACES ===\nTraceID: test_privilege_escalation_4404abc | Durée totale: 25ms api-gateway → checkoutservice (OK:200)\n",
+        "reponse_attendue": {
+            "service_defaillant": "checkoutservice",
+            "type_panne": "Attaque (Privilege Escalation)",
+            "raison": "Une élévation de privilèges (modification suspecte d'un rôle vers ADMIN) a permis de contourner les contraintes de sécurité HTTP."
+        }
+    }
+]
