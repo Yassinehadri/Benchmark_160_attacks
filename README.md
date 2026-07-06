@@ -7,7 +7,7 @@
 
 #  Benchmark 140 Attacks : Cyber Threat Evaluation for Microservices
 
-Bienvenue dans le dépôt du projet **benchmark_160_attaks** (issu du projet global *Synth-OB-Cyber*). 
+Bienvenue dans le dépôt du projet **benchmark_140_attaks** (issu du projet global *Synth-OB-Cyber*). 
 
 Ce jeu de données (Benchmark) a été spécifiquement conçu pour évaluer la capacité des Modèles de Langage (LLMs, ex: Llama 3.2) à effectuer des diagnostics de causes racines (Root Cause Analysis - RCA) et à classifier des **cyberattaques** au sein d'une architecture microservices Cloud-Native (*Online Boutique*).
 
