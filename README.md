@@ -1,11 +1,11 @@
-#  Synthetic Benchmark of 160 Attacks in Microservices (Online Boutique)
+#  Synthetic Benchmark of 140 Attacks in Microservices (Online Boutique)
 
 ![Version](https://img.shields.io/badge/version-1.0-blue.svg)
 ![Research](https://img.shields.io/badge/Research-Loria_RESIST-darkred.svg)
 ![Task](https://img.shields.io/badge/Task-Root_Cause_Analysis_(RCA)-success.svg)
 ![Format](https://img.shields.io/badge/Format-JSON--ChatML-yellow.svg)
 
-#  Benchmark 160 Attacks : Cyber Threat Evaluation for Microservices
+#  Benchmark 140 Attacks : Cyber Threat Evaluation for Microservices
 
 Bienvenue dans le dépôt du projet **benchmark_160_attaks** (issu du projet global *Synth-OB-Cyber*). 
 
@@ -29,7 +29,7 @@ Ce benchmark surmonte ces limitations en projetant les signatures d'attaques rec
 
 ##  2. Taxonomie des Scénarios (Les 8 Vecteurs)
 
-Le jeu de test est constitué de **160 scénarios d'attaques** répartis de manière parfaitement équilibrée (20 cas par classe) pour éviter tout biais statistique lors du calcul du F1-Score.
+Le jeu de test est constitué de **140 scénarios d'attaques** répartis de manière parfaitement équilibrée (20 cas par classe) pour éviter tout biais statistique lors du calcul du F1-Score.
 
 | Type d'Attaque | Service Cible | Signature Multi-Source (Inspiration CIC-IDS / Loghub) |
 | :--- | :--- | :--- |
